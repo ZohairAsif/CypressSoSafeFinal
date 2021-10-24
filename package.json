@@ -1,0 +1,27 @@
+{
+  "name": "testing-trial-day",
+  "version": "1.0.0",
+  "description": "tests our learningpage against the production-environment",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.5.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "cypress-cucumber-preprocessor": "^4.1.2"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec 'cypress/integration/tryout.spec.js'"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoSafeAndreas/TestingTrialDay"
+  },
+  "author": "SoSafe",
+  "license": "ISC"
+}

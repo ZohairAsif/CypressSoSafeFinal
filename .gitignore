@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# cypresss
+/cypress/downloads
+/cypress/screenshots
+/cypress/videos
+
+# misc
+.DS_Store
